@@ -1,0 +1,26 @@
+body{
+  background-color: gray;
+}
+
+h1{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.quote-box{
+  font-size: 150%;
+  font-family: "GENTIUM BASIC", "Times New Roman";
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  padding: 20px;
+}
+
+.da-buttonz{
+  text-align: center;
+}
