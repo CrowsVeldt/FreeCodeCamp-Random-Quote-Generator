@@ -9,7 +9,7 @@ $(".quote-button").click(function(){
     $(".quote").html('"' + a[0].content + '"')
     $(".author").html('<b> - '+ a[0].title + ' </b>')
 
-});
+  });
 
   $("p").fadeIn();
 
@@ -18,7 +18,7 @@ $(".quote-button").click(function(){
 $(".twitter-button").click(function(){
   var quote = $(".quote").text();
   var author = $(".author").text();
-  var url = "https://twitter.com/intent/tweet?text=" + quote + " --" + author;
+  var url = "https://twitter.com/intent/tweet?text=" + quote + author;
 
   window.open(url, '_blank');
   });
