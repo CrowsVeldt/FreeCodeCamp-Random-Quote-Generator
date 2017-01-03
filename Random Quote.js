@@ -5,7 +5,7 @@ $.ajaxSetup({ cache: false });
 $(".quote-button").click(function(){
 
   $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
-    $(".quote").html('"' + a[0].content + '"')
+    $(".quote").html(a[0].content)
     $(".author").html('<b> - '+ a[0].title + ' </b>')
 
   });
