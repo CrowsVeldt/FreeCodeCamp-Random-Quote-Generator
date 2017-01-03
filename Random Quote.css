@@ -1,5 +1,5 @@
 body{
-  background-color: gray;
+  background-color: #add8e6;
 }
 
 h1{
@@ -10,11 +10,12 @@ h1{
 
 .quote-box{
   font-size: 150%;
-  font-family: "GENTIUM BASIC", "Times New Roman";
+  font-family: "ariel", "Times New Roman";
   margin-top: 2%;
   margin-bottom: 2%;
   margin-left: 20%;
   margin-right: 20%;
+  border-radius: 30%;
   background-color: white;
   width: 80%;
   text-align: center;
